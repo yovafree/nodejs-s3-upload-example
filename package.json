@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-s3-blob",
+  "version": "1.0.0",
+  "description": "Example Rest API for create XLS and upload to AWS S3 or Azure BLOB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^7.0.0",
+    "@fastify/swagger": "^6.0.1",
+    "aws-sdk": "^2.1140.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "excel4node": "^1.7.2",
+    "fastify": "^3.29.0",
+    "save": "^2.5.0",
+    "uuid": "^8.3.2"
+  }
+}
